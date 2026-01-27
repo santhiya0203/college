@@ -1,62 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../controllers/login_controller.dart';
-/*
 
-class LoginScreen extends GetView<LoginController> {
-  const LoginScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Padding(
-        padding: const EdgeInsets.all(24),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            const Icon(Icons.school, size: 80, color: Color(0xFF1E7F78)),
-            const SizedBox(height: 16),
-            const Text(
-              'College Event Management',
-              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 32),
-
-            TextField(
-              controller: controller.rollController,
-              decoration: const InputDecoration(
-                labelText: 'Roll Number',
-                border: OutlineInputBorder(),
-              ),
-            ),
-            const SizedBox(height: 16),
-
-            TextField(
-              controller: controller.dobController,
-              decoration: const InputDecoration(
-                labelText: 'Date of Birth',
-                border: OutlineInputBorder(),
-              ),
-            ),
-            const SizedBox(height: 24),
-
-            SizedBox(
-              width: double.infinity,
-              height: 50,
-              child: ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFF1E7F78),
-                ),
-                onPressed: controller.login,
-                child: const Text('Login'),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}*/
 class LoginScreen extends GetView<LoginController> {
   const LoginScreen({super.key});
 

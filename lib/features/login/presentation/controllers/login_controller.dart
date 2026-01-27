@@ -3,24 +3,7 @@ import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 
 import '../../../../routes/app_routes.dart';
-/*
 
-class LoginController extends GetxController {
-  final rollController = TextEditingController();
-  final dobController = TextEditingController();
-
-  void login() {
-    if (rollController.text.isEmpty || dobController.text.isEmpty) {
-      Get.snackbar(
-        'Error',
-        'Please fill all fields',
-        backgroundColor: Colors.red.shade100,
-      );
-    } else {
-      Get.toNamed(AppRoutes.homeScreen);
-    }
-  }
-}*/
 
 class LoginController extends GetxController {
   final rollController = TextEditingController();
