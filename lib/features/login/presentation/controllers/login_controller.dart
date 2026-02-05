@@ -77,7 +77,7 @@ class LoginController extends GetxController {
 
     // Navigate to home
     isLoading.value = false;
-    Get.toNamed(AppRoutes.homeScreen);
+    Get.toNamed(AppRoutes.createStudent);
   }
 
   @override

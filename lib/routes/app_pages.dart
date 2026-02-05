@@ -1,3 +1,5 @@
+import 'package:clg_event_management_new/features/admin/createStudent/presentation/bindings/create_student_form_binding.dart';
+import 'package:clg_event_management_new/features/admin/createStudent/presentation/views/create_student_form_screen.dart';
 import 'package:clg_event_management_new/features/students/home/presentation/bindings/home_binding.dart';
 import 'package:get/get.dart';
 
@@ -32,6 +34,11 @@ class AppPages {
     GetPage(
       name: AppRoutes.userProfile,
       page: () => const UserProfileScreen(),
+    ),
+    GetPage(
+      name: AppRoutes.createStudent,
+      binding: CreateStudentFormBinding(),
+      page: () =>  CreateStudentFormScreen(),
     ),
   ];
 }

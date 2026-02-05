@@ -5,4 +5,8 @@ class AppRoutes {
   static const String eventRegister = '/eventRegister';
   static const String userProfile = '/userProfile';
   static const String events = "/events";
+
+
+
+  static const String createStudent = "/create-student";
 }

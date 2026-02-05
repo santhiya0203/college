@@ -1,9 +1,16 @@
 import 'package:clg_event_management_new/routes/app_routes.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'routes/app_pages.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
 
-void main() {
+import 'routes/app_pages.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 
